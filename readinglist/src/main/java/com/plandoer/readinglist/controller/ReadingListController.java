@@ -2,7 +2,6 @@ package com.plandoer.readinglist.controller;
 
 import com.plandoer.readinglist.dao.ReadingListRepository;
 import com.plandoer.readinglist.domains.Book;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -17,7 +16,6 @@ public class ReadingListController {
 
     private ReadingListRepository readingListRepository;
 
-    @Autowired
     public ReadingListController(ReadingListRepository readingListRepository) {
         this.readingListRepository = readingListRepository;
     }
