@@ -6,11 +6,11 @@ import org.springframework.stereotype.Component;
 public class Parrot {
     private String name = "Koko";
 
-    private final Person person;
+    // private final Person person;
 
-    Parrot(Person person) {
-        this.person = person;
-    }
+    // Parrot(Person person) {
+    // this.person = person;
+    // }
 
     public String getName() {
         return name;
