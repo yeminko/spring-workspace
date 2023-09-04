@@ -48,3 +48,30 @@
 ## Page 108: Singleton - Eager and lazy instantiation
 
 - include `@Lazy`
+
+## Page 111: Prototype Bean Scope
+
+- How prototype beans work
+- include `@Scope`
+- `@Scope(BeanDefinition.SCOPE_PROTOTYPE)`
+
+## Page 119: Singleton vs Prototype
+
+## Page 123: Definition of aspects
+
+- `aspect` vs `advice` vs `pointcut`
+- also include `join point`, `target object` and `weaving`
+
+## Page 125: EnhancerBySpring
+
+## Page 126: Without Aspect vs With Aspect
+
+## Page 129: Real-World scenario of aspects
+
+- include `@EnableAspectJAutoProxy`, `@Aspect`
+
+## Page 131: Defing an Aspect Class
+
+## Page 132: Defining an Aspect Method
+
+## Page 135: Altering method’s parameters and the returned value
