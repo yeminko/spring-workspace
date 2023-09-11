@@ -8,7 +8,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import com.example.aspects.LoggingAspect;
 
 @Configuration
-@ComponentScan(basePackages = "com.example.services")
+@ComponentScan(basePackages = "com.example")
 @EnableAspectJAutoProxy
 public class ProjectConfig {
 
