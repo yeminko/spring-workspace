@@ -10,7 +10,7 @@
 
 ## Page 44: `@PostConstruct()`
 
-- `@PreDestroy` also include.
+- `@PreDestroy` also include
 
 ## Page 46: `registerBean()`
 
