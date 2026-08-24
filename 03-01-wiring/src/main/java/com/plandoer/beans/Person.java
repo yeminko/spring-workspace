@@ -1,7 +1,13 @@
 package com.plandoer.beans;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
 public class Person {
-    private String name;
+    private String name = "John";
+
+    @Autowired
     private Parrot parrot;
 
     public String getName() {

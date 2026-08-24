@@ -1,7 +1,14 @@
 package com.plandoer.beans;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Parrot {
-    private String name;
+    private String name = "Polly";
+
+    public Parrot() {
+        System.out.println("Parrot created!");
+    }
 
     public String getName() {
         return name;
